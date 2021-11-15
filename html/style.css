@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #81ecec;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+
+.content{
+    display: flex;
+    min-height: 600px;
+}
+
+.content main{
+    width: 950px;
+    min-height: 300px;
+    margin-left: 20px;
+}
+
+.content main .article ol{
+    font-size: 15px;
+}
+
+.content aside{
+    width: 450px;
+    min-height: 300px;
+}
+
+aside section {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .article table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    width: 1500px;
+    height: 50px;
+    font-size: 14px;
+    color: #fff;
+    background-color: blue;
+}
+
+footer p{
+    padding: 15px;
+}
+
+main{
+    display: flexbox;
+    justify-content: center;
+}
+
+main section .contact img{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+main section .contact table, td{
+    width: 0px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    
+}
+
+.content main section .Product {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.content main section .Product img {
+    width: 200px;
+    height: 200px;
+}
+
+.content main section .Product button{
+    border: none;
+    width: 100px;
+    background-color: #81ecec;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.content main section .Product button:hover{
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+    transition: 0.5s ease-in-out;
+}
